@@ -1,0 +1,96 @@
+.footer {
+  padding-top: 2rem;
+}
+
+.footer__contenedor {
+  row-gap: 3.5rem;
+}
+
+.footer__bg {
+  background-color: $p-color-sec;
+  padding: 2rem 0 3rem;
+}
+
+.footer__titulo {
+  font-size: $h1;
+  margin-bottom: $mb-0-25;
+}
+
+.footer__subtitulo {
+  font-size: $small;
+}
+
+.footer__links {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.5rem;
+}
+
+.footer__link:hover {
+  color: $p-color-ilu;
+}
+
+.footer__social {
+  font-size: 1.25rem;
+  margin-right: $mb-1-5;
+}
+
+.footer__social:hover {
+  color: $p-color-ilu;
+}
+
+.footer__copy {
+  font-size: $smaller;
+  text-align: center;
+  color: $p-color-ilu;
+  margin-top: $mb-3;
+}
+
+.footer__titulo,
+.footer__subtitulo,
+.footer__link,
+.footer__social {
+  color: #fff;
+}
+
+.scrollup {
+  position: fixed;
+  right: 1rem;
+  bottom: -20%;
+  background-color: $p-color;
+  opacity: 0.8;
+  padding: 0 0.3rem;
+  border-radius: 0.4rem;
+  z-index: $z-tooltip;
+  transition: 0.4s;
+}
+
+.scrollup:hover {
+  background-color: $p-color-alt;
+}
+
+.scrollup__icon {
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+// Mostar scroll
+.show-scroll {
+  bottom: 5rem;
+}
+
+//SCROLL BAR
+::-webkit-scrollbar {
+  width: 0.6rem;
+  background-color: $scroll-bar-color;
+  border-radius: 0.5rem;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: $p-color;
+  border-radius: 0.5rem;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: $texto-color-ilu;
+}

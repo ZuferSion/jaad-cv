@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JAAD - Portafolio</title>
+    <!--Iconos-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <!--Swiper slider-->
+    <link href="https://cdn.jsdelivr.net/npm/swiper@9.0.2/swiper-bundle.min.css" rel="stylesheet">
+    <!--Estilos sass-->
+    <link rel="stylesheet" href="build/css/app.css">
+
+</head>
+
+<body>
+    <!-- Encabezado -->
+    <header class="header" id="header">
+        <nav class="nav contenedor">
+            <a href="#" class="nav__logo">Andres</a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list grid">
+                    <li class="nav__item">
+                        <a href="#inicio" class="nav__link active-link">
+                            <i class="uil uil-estate nav__icon"></i> Inicio
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">
+                            <i class="uil uil-user nav__icon"></i> Sobre mi
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#habilidades" class="nav__link">
+                            <i class="uil uil-file-info-alt nav__icon"></i> Habilidades
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#servicios" class="nav__link">
+                            <i class="uil uil-suitcase-alt nav__icon"></i> Servicios
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#portafolio" class="nav__link">
+                            <i class="uil uil-scenery nav__icon"></i> Proyectos
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contacto" class="nav__link">
+                            <i class="uil uil-message nav__icon"></i> Contacto
+                        </a>
+                    </li>
+                </ul>
+                <i class="uil uil-times nav__close" id="nav-close"></i>
+            </div>
+
+            <div class="nav__btns">
+                <!-- boton modo oscuro -->
+                <i class="uil uil-moon change-theme" id="theme-button"></i>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="uil uil-apps"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Termina el encabezado  -->
+
+    <!-- contenido principal -->
+    <main class="main">
+        <section class="inicio seccion" id="inicio">
+            <div class="inicio__contenedor contenedor grid">
+                <div class="inicio__contenido grid">
+                    <div class="inicio__social">
+                        <a href="https://www.linkedin.com/in/jose-andres-arias-dominguez/" target="_blank"
+                            class="inicio__social-icon">
+                            <i class="uil uil-linkedin-alt"></i>
+                        </a>
+                        <a href="https://github.com/ZuferSion" target="_blank" class="inicio__social-icon">
+                            <i class="uil uil-github-alt"></i>
+                        </a>
+                    </div>
+
+                    <div class="inicio__img">
+                        <svg class="inicio__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <mask id="mask0" mask-type="alpha">
+                                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                                130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                                97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                                0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
+                            </mask>
+                            <g mask="url(#mask0)">
+                                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                                165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                                129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                                -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
+                                <image class="inicio__blob-img" x="12" y="18" href="build/img/perfil3.png" />
+                            </g>
+                        </svg>
+                    </div>
+
+                    <div class="inicio__datos">
+                        <h1 class="inicio__titulo">Buenas! Soy Jose Andres</h1>
+                        <h3 class="inicio__subtitulo">Desarrollador Web</h3>
+                        <p class="inicio__descripcion">Ingeniero en sistemas computacionales con amplios conocimientos
+                            en el desarrollo web del lado FrontEnd. </p>
+                        <a href="#contacto" class="button button--flex">
+                            Contactame<i class="uil uil-message button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="inicio__scroll">
+                    <a href="#about" class="inicio__scroll-button button--flex">
+                        <i class="uil uil-mouse-alt inicio__scroll-mouse"></i>
+                        <span class="inicio__scroll-name">Baja mas</span>
+                        <i class="uil uil-arrow-down inicio__scroll-arrow"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- SOBRE MI -->
+        <section class="about seccion" id="about">
+            <h2 class="seccion__titulo">Sobre mi</h2>
+            <span class="seccion__subtitulo">Mi introducción</span>
+
+            <div class="about__contenedor contenedor grid">
+                <img src="build/img/perfil3.png" alt="" class="about__img">
+
+                <div class="about__datos">
+                    <p class="about__descripcion">Ing. en sistemas computacionales con conocimientos generales en el
+                        desarrollo de proyectos de software, programación web y aplicaciones de escritorio, así como el
+                        análisis, modelado y diseño de bases de datos</p>
+
+                    <div class="about__info">
+                        <div>
+                            <span class="about__info-titulo">01</span>
+                            <span class="about__info-name">Año <br>experiencia</span>
+                        </div>
+                        <div>
+                            <span class="about__info-titulo">05</span>
+                            <span class="about__info-name">Proyectos <br>Completados</span>
+                        </div>
+                    </div>
+                    <div class="about__buttons">
+                        <a download="" target="_blank" href="src/pdf/cv.pdf" class="button button--flex">
+                            Descargar CV<i class="uil uil-download-alt button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Mis habilidades -->
+        <section class="habilidades seccion" id="habilidades">
+            <h2 class="seccion__titulo">Habilidades</h2>
+            <span class="seccion__subtitulo">Mis tecnologias</span>
+
+            <div class="habilidades__contenedor contenedor grid">
+                <div>
+                    <!--Primer habilidad-->
+                    <div class="habilidades__contenido habilidad__cerrar">
+                        <div class="habilidades__header">
+                            <i class="uil uil-brackets-curly habilidades__icon"></i>
+                            <div>
+                                <h1 class="habilidades__titulo">Maquetación</h1>
+                            </div>
+                            <i class="uil uil-angle-down habilidades__arrow"></i>
+                        </div>
+
+                        <div class="habilidades__list grid">
+                            <div class="habilidades__dato">
+                                <div class="habilidades__titulos">
+                                    <h3 class="habilidades__name">HTML 5</h3>
+                                    <span class="habilidades__level">Intermedio - Alto</span>
+                                </div>
+                                <div class="habilidades__bar">
+                                    <span class="habilidades__porcentaje habilidades__html"></span>
+                                </div>
+                            </div>
+                            <div class="habilidades__dato">
+                                <div class="habilidades__titulos">
+                                    <h3 class="habilidades__name">CSS 3</h3>
+                                    <span class="habilidades__level">Intermedio - Alto</span>
+                                </div>
+                                <div class="habilidades__bar">
+                                    <span class="habilidades__porcentaje habilidades__css"></span>
+                                </div>
+                            </div>
+                            <div class="habilidades__dato">
+                                <div class="habilidades__titulos">
+                                    <h3 class="habilidades__name">SASS</h3>
+                                    <span class="habilidades__level">Intermedio</span>
+                                </div>
+                                <div class="habilidades__bar">
+                                    <span class="habilidades__porcentaje habilidades__sass"></span>
+                                </div>
+                            </div>
+                            <div class="habilidades__dato">
+                                <div class="habilidades__titulos">
+                                    <h3 class="habilidades__name">GULP</h3>
+                                    <span class="habilidades__level">Básico</span>
+                                </div>
+                                <div class="habilidades__bar">
+                                    <span class="habilidades__porcentaje habilidades__gulp"></span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!--Segundo habilidad-->
+                    <div class="habilidades__contenido habilidad__cerrar">
+                        <div class="habilidades__header">
+                            <i class="uil uil-code-branch habilidades__icon"></i>
+                            <div>
+                                <h1 class="habilidades__titulo">Programación</h1>
+                            </div>
+                            <i class="uil uil-angle-down habilidades__arrow"></i>
+                        </div>
+                        <div class="habilidades__list grid">
+                            <div class="habilidades__dato">
+                                <div class="habilidades__titulos">
+                                    <h3 class="habilidades__name">JavaScript</h3>
+                                    <span class="habilidades__level">Intermedio</span>
+                                </div>
+                                <div class="habilidades__bar">
+                                    <span class="habilidades__porcentaje habilidades__js"></span>
+                                </div>
+                            </div>
+                            <div class="habilidades__dato">
+                                <div class="habilidades__titulos">
+                                    <h3 class="habilidades__name">PHP</h3>
+                                    <span class="habilidades__level">Intermedio</span>
+                                </div>
+                                <div class="habilidades__bar">
+                                    <span class="habilidades__porcentaje habilidades__php"></span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!--Tercera habilidad-->
+                    <div class="habilidades__contenido habilidad__cerrar">
+                        <div class="habilidades__header">
+                            <i class="uil uil-cloud-database-tree habilidades__icon"></i>
+                            <div>
+                                <h1 class="habilidades__titulo">Bases de Datos</h1>
+                            </div>
+                            <i class="uil uil-angle-down habilidades__arrow"></i>
+                        </div>
+                        <div class="habilidades__list grid">
+                            <div class="habilidades__dato">
+                                <div class="habilidades__titulos">
+                                    <h3 class="habilidades__name">MySQL</h3>
+                                    <span class="habilidades__level">Alto</span>
+                                </div>
+                                <div class="habilidades__bar">
+                                    <span class="habilidades__porcentaje habilidades__mysql"></span>
+                                </div>
+                            </div>
+                            <div class="habilidades__dato">
+                                <div class="habilidades__titulos">
+                                    <h3 class="habilidades__name">MondoDB</h3>
+                                    <span class="habilidades__level">Básico</span>
+                                </div>
+                                <div class="habilidades__bar">
+                                    <span class="habilidades__porcentaje habilidades__mongo"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Fin habilidad-->
+                </div>
+            </div>
+        </section>
+
+        <!--Servicios-->
+        <section class="servicios seccion" id="servicios">
+            <h2 class="seccion__titulo">Servicios</h2>
+            <span class="seccion__subtitulo">¿Qué servicios proporciono?</span>
+
+            <div class="servicios__contenedor contenedor grid">
+                <!--SERVICIO 1-->
+                <div class="servicios__contenido">
+                    <div>
+                        <i class="uil uil-web-grid servicios__icon"></i>
+                        <h3 class="servicios__titulo">Programación <br>Web</h3>
+                    </div>
+                    <span class="button button--flex button--small button--link servicios__button">
+                        Ver mas
+                        <i class="uil uil-arrow-right button__icon"></i>
+                    </span>
+                    <div class="servicios__modal">
+                        <div class="servicios__modal-contenido">
+                            <h4 class="servicios__modal-titulo">Programación Web</h4>
+                            <i class="uil uil-times servicios__modal-cerrar"></i>
+                            <ul class="servicios__modal-servicios grid">
+                                <li class="servicios__modal-servicio">
+                                    <i class="uil uil-check-circle servicios__modal-icon"></i>
+                                    <p>Desarrollo la programación frontEnd de tu web.</p>
+                                </li>
+                                <li class="servicios__modal-servicio">
+                                    <i class="uil uil-check-circle servicios__modal-icon"></i>
+                                    <p>Utilizando lenguajes como PHP o frameworks como Angular, ofreciendote la
+                                        aplicacion que necesitas totalmente personalizada.</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!--SERVICIO 2-->
+                <div class="servicios__contenido">
+                    <div>
+                        <i class="uil uil-web-grid servicios__icon"></i>
+                        <h3 class="servicios__titulo">Maquetacion <br>Web</h3>
+                    </div>
+                    <span class="button button--flex button--small button--link servicios__button">
+                        Ver mas
+                        <i class="uil uil-arrow-right button__icon"></i>
+                    </span>
+                    <div class="servicios__modal">
+                        <div class="servicios__modal-contenido">
+                            <h4 class="servicios__modal-titulo">Maquetacion Web</h4>
+                            <i class="uil uil-times servicios__modal-cerrar"></i>
+                            <ul class="servicios__modal-servicios grid">
+                                <li class="servicios__modal-servicio">
+                                    <i class="uil uil-check-circle servicios__modal-icon"></i>
+                                    <p>Realizo el traspaso de tu diseño en HTML</p>
+                                </li>
+                                <li class="servicios__modal-servicio">
+                                    <i class="uil uil-check-circle servicios__modal-icon"></i>
+                                    <p>Crear la estructura del diseño de tu preferencia en HTML y uso de estilos en CSS.
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PORTAFOLIO -->
+        <section class="portafolio seccion" id="portafolio">
+            <h2 class="seccion__titulo">Portafolio</h2>
+            <span class="seccion__subtitulo">Mis proyectos recientes</span>
+
+            <div class="portafolio__contenedor contenedor swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <!--=============== PROYECTO 1 ==================-->
+                    <div class="portafolio__contenido grid swiper-slide">
+                        <img src="build/img/portfolio1.jpg" alt="calculadora" class="portafolio__img">
+                        <div class="portafolio__dato">
+                            <h3 class="portafolio__titulo">Calculadora con JS</h3>
+                            <p class="portafolio__descripcion">Desarrollo de una calculadora responsive con el uso de
+                                las tecnologias: HTML, CSS y JS</p>
+                            <a href="https://calculadora-zufer.netlify.app" target="_blank"
+                                class="button button--flex button--small portafolio__button">
+                                Visitar <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <!--=============== PROYECTO 2 ==================-->
+                    <div class="portafolio__contenido grid swiper-slide">
+                        <img src="build/img/portfolio2.jpg" alt="calculadora" class="portafolio__img">
+                        <div class="portafolio__dato">
+                            <h3 class="portafolio__titulo">Sitio de Bienes Raices</h3>
+                            <p class="portafolio__descripcion">Prototipo de sitio web sobre la venta de casas. Por el
+                                lado FrontEnd se utilizaron tecnologias como Sass y Gulp. Por el backend php y mysql.
+                            </p>
+                            <a href="https://prototipe-bienes.netlify.app" target="_blank"
+                                class="button button--flex button--small portafolio__button">
+                                Visitar <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <!--=============== PROYECTO 3 ==================-->
+                    <div class="portafolio__contenido grid swiper-slide">
+                        <img src="build/img/portfolio3.jpg" alt="calculadora" class="portafolio__img">
+                        <div class="portafolio__dato">
+                            <h3 class="portafolio__titulo">Blog Cafe con HTML y CSS</h3>
+                            <p class="portafolio__descripcion">Practica de las tecnologias de maquetación para la
+                                creación de blog acerca del cafe.
+                            </p>
+                            <a href="https://blogcafe-zufer.netlify.app" target="_blank"
+                                class="button button--flex button--small portafolio__button">
+                                Visitar <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <!--=============== PROYECTO 4 ==================-->
+                    <div class="portafolio__contenido grid swiper-slide">
+                        <img src="build/img/portfolio4.jpg" alt="calculadora" class="portafolio__img">
+                        <div class="portafolio__dato">
+                            <h3 class="portafolio__titulo">Front End Store con HTML Y CSS</h3>
+                            <p class="portafolio__descripcion">Practica de maquetación sobre una tienda virtual.
+                            </p>
+                            <a href="https://frontend-camisetas.netlify.app" target="_blank"
+                                class="button button--flex button--small portafolio__button">
+                                Visitar <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-next">
+                    <i class="uil uil-angle-right-b  swiper-portafolio-icon"></i>
+                </div>
+                <div class="swiper-button-prev">
+                    <i class="uil uil-angle-left-b swiper-portafolio-icon"></i>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+
+        <!-- CONTACTAME -->
+        <section class="contacto seccion" id="contacto">
+            <h2 class="seccion__titulo">Contactame</h2>
+            <span class="seccion__subtitulo">Dame un toque!</span>
+
+            <div class="contacto__contenedor contenedor grid">
+                <div>
+                    <div class="contacto__informacion">
+                        <i class="uil uil-phone contacto__icon"></i>
+                        <div>
+                            <h3 class="contacto__titulo">Llamame</h3>
+                            <span class="contacto__subtitulo">933-156-4606</span>
+                        </div>
+                    </div>
+                    <div class="contacto__informacion">
+                        <i class="uil uil-envelope-edit contacto__icon"></i>
+                        <div>
+                            <h3 class="contacto__titulo">Correo</h3>
+                            <span class="contacto__subtitulo">jandres.adguez1997@gmail.com</span>
+                        </div>
+                    </div>
+                    <div class="contacto__informacion">
+                        <i class="uil uil-map-marker-alt contacto__icon"></i>
+                        <div>
+                            <h3 class="contacto__titulo">Localizacion</h3>
+                            <span class="contacto__subtitulo">Tabasco, México</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- <form action="" class="contacto__form grid">
+                    <div class="contacto__inputs grid">
+                        <div class="contacto__contenido">
+                            <label for="nombre" class="contacto__label">Nombre:</label>
+                            <input type="text" class="contacto__input" id="nombre" required>
+                        </div>
+                        <div class="contacto__contenido">
+                            <label for="email" class="contacto__label">Correo:</label>
+                            <input type="email" class="contacto__input" id="email" required>
+                        </div>
+                    </div>
+                    <div class="contacto__contenido">
+                        <label for="mensaje" class="contacto__label">Mensaje:</label>
+                        <textarea name="" id="" cols="0" rows="7" class="contacto__input"></textarea>
+                    </div>
+                    <div>
+                        <a href="#" class="button button--flex">Enviar Mensaje
+                            <i class="uil uil-message button__icon"></i>
+                        </a>
+                    </div>
+                </form> -->
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer__bg">
+            <div class="footer__contenedor contenedor grid">
+                <div>
+                    <h1 class="footer__titulo">Jose Andres</h1>
+                    <span class="footer__subtitulo">Desarrollador Web</span>
+                </div>
+                <ul class="footer__links">
+                    <li>
+                        <a href="#servicios" class="footer__link">Servicios</a>
+                    </li>
+                    <li>
+                        <a href="#portafolio" class="footer__link">Portafolio</a>
+                    </li>
+                    <li>
+                        <a href="#contacto" class="footer__link">Contacto</a>
+                    </li>
+                </ul>
+
+                <div class="footer__socials">
+                    <a href="https://www.linkedin.com/in/jose-andres-arias-dominguez/" target="_blank"
+                        class="footer__social">
+                        <i class="uil uil-linkedin-alt"></i>
+                    </a>
+                    <a href="https://github.com/ZuferSion" target="_blank" class="footer__social">
+                        <i class="uil uil-github-alt"></i>
+                    </a>
+                </div>
+            </div>
+            <p class="footer__copy">&#169; Jose Andres - Todos los derechos reservados</p>
+        </div>
+    </footer>
+
+    <!-- volver arriba -->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="uil uil-arrow-up scrollup__icon"></i>
+    </a>
+
+    <!--Swiper slider-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9.0.2/swiper-bundle.min.js"></script>
+    <!--Archivo JS-->
+    <script src="build/js/bundle.min.js"></script>
+</body>
+
+</html>

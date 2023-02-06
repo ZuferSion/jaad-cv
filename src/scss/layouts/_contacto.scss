@@ -1,0 +1,46 @@
+.contacto__contenedor {
+  row-gap: 3rem;
+}
+
+.contacto__informacion {
+  display: flex;
+  margin-bottom: $mb-2;
+}
+
+.contacto__icon {
+  font-size: 2rem;
+  color: $p-color;
+  margin-right: $mb-0-75;
+}
+
+.contacto__titulo {
+  font-size: $h3;
+  font-weight: $fuente-medio;
+}
+
+.contacto__subtitulo {
+  font-size: $small;
+  color: $texto-color-ilu;
+}
+
+.contacto__contenido {
+  background-color: $input-color;
+  border-radius: 0.5rem;
+  padding: 0.75rem 1rem 0.25rem;
+}
+
+.contacto__label {
+  font-size: $smaller;
+  color: $titulo-color;
+}
+
+.contacto__input {
+  width: 100%;
+  background-color: $input-color;
+  color: $texto-color;
+  font-family: $fuente-principal;
+  font-size: $normal;
+  border: none;
+  outline: none;
+  padding: 0.25rem 0.5rem 0.5rem 0;
+}

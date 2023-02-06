@@ -1,0 +1,38 @@
+html {
+  scroll-behavior: smooth;
+}
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  margin: 0 0 $header-height 0;
+  font-family: $fuente-principal;
+  font-size: $normal;
+  background-color: $body-color;
+  color: $texto-color;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: $titulo-color;
+  font-size: $fuente-semibold;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}

@@ -1,0 +1,46 @@
+.contenido-centrado {
+  max-width: 80rem;
+}
+
+.no-margin {
+  margin: 0;
+}
+
+.no-padding {
+  padding: 0;
+}
+
+.alinear-derecha {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.seccion {
+  padding: 2rem 0 4rem;
+}
+
+.seccion__titulo {
+  font-size: $h1;
+}
+
+.seccion__subtitulo {
+  display: block;
+  font-size: $small;
+  margin-bottom: $mb-3;
+}
+
+.seccion__titulo,
+.seccion__subtitulo {
+  text-align: center;
+}
+
+.contenedor {
+  max-width: 768px;
+  margin-left: $mb-1-5;
+  margin-right: $mb-1-5;
+}
+
+.grid {
+  display: grid;
+  gap: $espaciado;
+}

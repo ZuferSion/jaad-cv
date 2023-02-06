@@ -1,0 +1,103 @@
+.habilidades__contenedor {
+  row-gap: 0;
+}
+
+.habilidades__header {
+  display: flex;
+  align-items: center;
+  margin-bottom: $mb-2-5;
+  cursor: pointer;
+}
+
+.habilidades__contenido {
+  margin-bottom: $mb-0-75;
+}
+
+.habilidades__icon,
+.habilidades__arrow {
+  font-size: 2rem;
+  color: $p-color;
+}
+
+.habilidades__icon {
+  margin-right: $mb-0-75;
+}
+
+.habilidades__titulo {
+  font-size: $h3;
+}
+
+.habilidades__arrow {
+  margin-left: auto;
+  transition: 0.4s;
+}
+
+.habilidades__list {
+  row-gap: 1.5rem;
+  padding-left: 2.7rem;
+}
+.habilidades__titulos {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: $mb-0-5;
+}
+
+.habilidades__name {
+  font-size: $normal;
+  font-weight: $fuente-medio;
+}
+
+.habilidades__bar,
+.habilidades__porcentaje {
+  height: 5px;
+  border-radius: 0.25rem;
+}
+
+.habilidades__bar {
+  background-color: $p-color-ilu;
+}
+
+.habilidades__porcentaje {
+  display: block;
+  background-color: $p-color;
+}
+
+.habilidades__html {
+  width: 75%;
+}
+.habilidades__css {
+  width: 75%;
+}
+.habilidades__sass {
+  width: 60%;
+}
+.habilidades__gulp {
+  width: 20%;
+}
+
+.habilidades__js {
+  width: 60%;
+}
+.habilidades__php {
+  width: 60%;
+}
+.habilidades__mysql {
+  width: 85%;
+}
+.habilidades__mongo {
+  width: 25%;
+}
+
+.habilidad__cerrar .habilidades__list {
+  height: 0;
+  overflow: hidden;
+}
+
+.habilidad__abrir .habilidades__list {
+  height: max-content;
+  margin-bottom: $mb-2-5;
+}
+
+.habilidad__abrir .habilidades__arrow {
+  transform: rotate(-180deg);
+}

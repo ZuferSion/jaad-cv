@@ -1,0 +1,58 @@
+.portafolio__contenedor {
+  overflow: initial;
+}
+
+.portafolio__contenido {
+  padding: 0 1.5rem;
+}
+
+.portafolio__img {
+  width: 265px;
+  border-radius: 0.5rem;
+  justify-self: center;
+}
+
+.portafolio__titulo {
+  font-size: $h3;
+  margin-bottom: $mb-0-5;
+}
+
+.portafolio__descripcion {
+  margin-bottom: $mb-0-75;
+}
+
+.portafolio__button:hover .button__icon {
+  transform: translateX(0.25rem);
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  content: '';
+}
+
+.swiper-portafolio-icon {
+  font-size: 2rem;
+  color: $p-color;
+}
+
+.swiper-button-prev {
+  left: -0.5rem;
+}
+
+.swiper-button-next {
+  right: -0.5rem;
+}
+
+.swiper-horizontal > .swiper-pagination-bullets {
+  bottom: -2.5rem;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: $p-color;
+}
+
+.swiper-button-prev,
+.swiper-button-next,
+.swipper-pagination {
+  outline: none;
+}

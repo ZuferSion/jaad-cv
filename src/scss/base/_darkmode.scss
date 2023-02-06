@@ -1,0 +1,56 @@
+.nav__btns {
+  display: flex;
+  align-items: center;
+}
+
+.change-theme {
+  font-size: 1.25rem;
+  color: $titulo-color;
+  margin-right: $mb-1;
+  cursor: pointer;
+}
+
+.change-theme:hover {
+  color: $p-color;
+}
+
+body.dark-theme {
+  // Colores
+  $p-color-sec: hsl($colorP, 30%, 8%);
+  $titulo-color: hsl($colorP, 8%, 95%);
+  $texto-color: hsl($colorP, 8%, 75%);
+  $input-color: hsl($colorP, 29%, 16%);
+  $body-color: hsl($colorP, 28%, 12%);
+  $container-color: hsl($colorP, 29%, 16%);
+  $scroll-bar-color: hsl($colorP, 12%, 90%);
+  $scroll-thumb-color: hsl($colorP, 12%, 80%);
+
+  background-color: $body-color;
+  h1,
+  h2,
+  h3,
+  h4,
+  p,
+  span,
+  .uil-moon,
+  .uil-apps,
+  .uil-times,
+  a {
+    color: white;
+  }
+  header,
+  .nav__menu,
+  .servicios__modal-contenido {
+    background-color: $input-color;
+    color: white;
+  }
+  .servicios__contenido {
+    background-color: $p-color-sec;
+  }
+  .swiper-pagination-bullet {
+    background-color: white;
+  }
+  .footer__bg {
+    background-color: $input-color;
+  }
+}
